@@ -1,15 +1,15 @@
 const trabajos = [
-    {
+       {
         id: 1,
-        photo: "https://martinaurzua.github.io/mi-tercera-vez/img/kido.webp",
-        title: "Kido",
-        description: "Procesos y Prototipos I, con Prof. Pamela Fuentes"
-    },
-    {
-        id: 2,
         photo: "https://martinaurzua.github.io/mi-tercera-vez/img/guante.webp",
         title: "Guante Tactimo",
         description: "Ergonomía y Factores Humanos, con Prof. Claudio Ribalta"
+    },
+    {
+        id: 2,
+        photo: "https://martinaurzua.github.io/mi-tercera-vez/img/kido.webp",
+        title: "Kido",
+        description: "Procesos y Prototipos I, con Prof. Pamela Fuentes"
     },
     {
         id: 3,
