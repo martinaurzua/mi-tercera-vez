@@ -1,25 +1,25 @@
 const trabajos = [
     {
         id: 1,
-        photo: "",
+        photo: "https://martinaurzua.github.io/mi-tercera-vez/img/kido.webp",
         title: "Kido",
         description: "Procesos y Prototipos I, con Prof. Pamela Fuentes"
     },
     {
         id: 2,
-        photo: "",
+        photo: "https://martinaurzua.github.io/mi-tercera-vez/img/guante.webp",
         title: "Guante Tactimo",
         description: "Ergonomía y Factores Humanos, con Prof. Claudio Ribalta"
     },
     {
         id: 3,
-        photo: "",
+        photo: "https://martinaurzua.github.io/mi-tercera-vez/img/paularoncore.webp",
         title: "Identidad",
         description: "Proyecto II, con Prof. Paula Ron"
     },
     {
         id: 4,
-        photo: "",
+        photo: "https://martinaurzua.github.io/mi-tercera-vez/img/beto.webp",
         title: "Beto",
         description: "Proyecto III, con Prof. Pamela Gatica"
     }
