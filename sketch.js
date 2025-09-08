@@ -7,9 +7,9 @@ const trabajos = [
     },
     {
         id: 2,
-        photo: "https://martinaurzua.github.io/mi-tercera-vez/img/kido.webp",
-        title: "Kido",
-        description: "Procesos y Prototipos I, con Prof. Pamela Fuentes"
+        photo: "https://martinaurzua.github.io/mi-tercera-vez/img/petru.webp",
+        title: "¿Y si mi milagro es exitir sin miedo?",
+        description: "Proyecto III, con Prof. Pamela Gatica"
     },
     {
         id: 3,
