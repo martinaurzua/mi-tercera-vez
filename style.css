@@ -1,0 +1,128 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", monospace;
+    color: #693167;
+    background: #d9b0d9;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-wrap: balance;
+    color: #693167;
+}
+
+canvas {
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(105, 49, 103, 0.3);
+    background: #ffdaff;
+}
+
+main {
+    text-align: left;
+    width: min(90vw, 900px);
+    margin: 5% auto;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(105, 49, 103, 0.2);
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+div#izquierda {
+    width: 36%;
+    margin: 2%;
+    float: left;
+}
+
+div#derecha {
+    width: 56%;
+    margin: 2%;
+    float: left;
+}
+
+div#portafolio {
+    width: 96%;
+    margin: 2%;
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+@media (orientation: portrait) {
+    div#izquierda,
+    div#derecha {
+        width: 96%;
+        margin: 2%;
+        float: none;
+    }
+    div#portafolio {
+        grid-template-columns: 1fr;
+    }
+}
+
+span {
+    text-decoration: underline;
+    color: #8e5b8d;
+    font-weight: bold;
+}
+
+div#otredad div {
+    padding: 0.3rem;
+    width: 3rem;
+    float: left;
+}
+
+div#otredad div img {
+    transition: all ease 0.25s;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50%;
+    filter: grayscale(1);
+    border: 2px solid #d9b0d9;
+}
+
+div#otredad div img:hover {
+    transition: all ease 0.25s;
+    transform: scale(1.1);
+    filter: grayscale(0);
+    border-color: #8e5b8d;
+}
+div#portafolio div img {
+    width: 100%;
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid #d9b0d9;
+}
+div#portafolio div img:hover {
+    transition: all ease 0.25s;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(142, 91, 141, 0.25);
+    border-color: #8e5b8d;
+}
+div#portafolio div p {
+    padding: 0.3rem;
+    margin: 0.5rem;
+    color: #693167;
+    text-align: center;
+    font-weight: bold;
+}
+div#final {
+    clear: both;
+    text-align: center;
+    padding: 1rem;
+    color: #693167;
+    font-size: 0.9rem;
+    border-top: 1px solid #d9b0d9;
+    margin-top: 1.5rem;
+}
+h2 {
+    color: #8e5b8d;
+}
